@@ -1,2 +1,2 @@
 # Kasa_Fichot_Julien
- React porject
+ React project
