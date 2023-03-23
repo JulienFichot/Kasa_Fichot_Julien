@@ -1,0 +1,50 @@
+.banniere {
+  border-radius: 25px;
+  height: 225px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.banniere-img {
+  border-radius: 25px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banniere-sombre {
+  background-color: #000000;
+  border-radius: 25px;
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.banniere-box-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banniere-txt {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1065px) {
+  .banniere-txt {
+    color: #ffffff;
+    font-size: 40px;
+    left: 10%;
+    position: absolute;
+    top: 35%;
+  }
+}

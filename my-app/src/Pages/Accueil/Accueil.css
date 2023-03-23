@@ -1,0 +1,27 @@
+.liste-logements {
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  padding: 55px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.liste-logements a {
+  width: 31%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1065px) {
+  .liste-logements a {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .liste-logements {
+    background-color: white;
+    border-radius: 25px;
+    padding: 0;
+  }
+}
