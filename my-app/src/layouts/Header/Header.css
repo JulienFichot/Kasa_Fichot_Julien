@@ -15,25 +15,12 @@ nav {
   width: 100%;
 }
 
-.lien-site {
-  color: #ff6060;
-  margin: auto 25px;
-  text-decoration: none;
-}
-.lien-site:hover {
-  color: #000000;
-}
-
-.lien-menu.active {
-    border-bottom: 1px solid #ff6060;
-}
-
 @media screen and (max-width: 1490px) {
   header {
     margin: 40px 2.5%;
     width: 95%;
   }
-  
+
   header > img {
     height: 47px;
   }
